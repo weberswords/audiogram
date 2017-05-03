@@ -1,97 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Audiogram</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600" rel="stylesheet" type="text/css">
-    <link href="/css/base.css" rel="stylesheet" type="text/css">
-    <link href="/css/editor.css" rel="stylesheet" type="text/css">
-    <link href="/fonts/fonts.css" rel="stylesheet" type="text/css">
-  </head>
-  <body class="loading">
+<html class=""><head>
+<script type="text/javascript" src="https://bam.nr-data.net/1/ec1745aa55?a=9069766&amp;v=1026.7a27a3e&amp;to=cFZeTRBaVVgGR01fWUBNQxYLW11RGw%3D%3D&amp;rst=3073&amp;ref=https://listy.newsdev.nyt.net/&amp;ap=16&amp;be=1554&amp;fe=2597&amp;dc=1906&amp;af=err,xhr,stn,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1493748618590,%22n%22:0,%22f%22:1470,%22dn%22:1470,%22dne%22:1470,%22c%22:1470,%22ce%22:1470,%22rq%22:1472,%22rp%22:1522,%22rpe%22:1541,%22dl%22:1524,%22di%22:1905,%22ds%22:1905,%22de%22:2170,%22dc%22:2596,%22l%22:2597,%22le%22:2603%7D,%22navigation%22:%7B%22ty%22:2%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1026.min.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"ec1745aa55","applicationID":"9069766","transactionName":"cFZeTRBaVVgGR01fWUBNQxYLW11RGw==","queueTime":0,"applicationTime":16,"agent":""}</script>
+  <title>Audiogram: Create shareable audio clips</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="tVa4IcBt6loyE1SyNQofVwuGZDZQQndYJ+7UHjdY71l/QOUqYIwZSmU3fvhL++o/gm7P07zqplssdZ3YlTr3yg==">
+  <link rel="stylesheet" media="screen" href="https://int.nyt.com/apps/listy/assets/badcom/admin.base-d039aad014bc3d4711b8a188318c703c2b3ac978a87ca69537fcc48ee78e1120.css">
+  <script type="text/javascript" src="//typeface.nytimes.com/zam5nzz.js"></script><link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all">
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <meta content="James Thomas" name="deck.user.name">
+<meta content="James.Thomas@nytimes.com" name="deck.user.email">
+<meta content="Audiogram" name="deck.tool.name">
+<meta content="audiogram" name="deck.tool.slug">
+<meta content="" name="adcom.version">
+<meta content="" name="scoop.frontend_host">
+
+  
+  <link rel="stylesheet" media="screen" href="https://int.nyt.com/apps/listy/assets/application-b20f3fab0b5033c6bddeac4f8da04cfcb76f7731a59e0672179d480e0fd70f59.css">
+<script src="https://int.nyt.com/apps/listy/assets/application-d48392cb791b95ae8ce65e5c5620b179d0d304a81743764c4e3a0bcb9806d601.js"></script>
+<script src="https://int.nyt.com/apps/listy/assets/lists/index-c4561afc01ca436129802c5f31fae09923c867d9ec61024d3d5df8b1bb0be933.js"></script>
+
+</head>
+<body class="deck-production">
+<div class="navbar navbar-default navbar-primary">
+  <div class="container">
+    <!-- BACK TO DECK ICON
+    <div class="navbar-header">
+      <a class="navbar-deck" href="http://deck.ast.int.newsdev.net">D</a>
+    </div>
+    -->
+    <div class="navbar-header">
+      <a class="navbar-deck" href="https://deck.newsdev.nyt.net">
+        <svg width="26" height="26">
+          <rect class="navbar-deck-square" width="11" height="11" x="0" y="0"></rect>
+          <rect class="navbar-deck-square" width="11" height="11" x="15" y="0"></rect>
+          <rect class="navbar-deck-square" width="11" height="11" x="15" y="15"></rect>
+          <rect class="navbar-deck-square" width="11" height="11" x="0" y="15"></rect>
+        </svg>
+      </a>
+      <a class="navbar-brand" href="/">Audiogram</a>
+    </div>
+    <ul class="nav navbar-nav navbar-left">
+      <li class="navbar-summary"><span>Create shareable audio clips</span></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right navbar-bits">
+      <!--
+      <li class="navbar-form" data-toggle="collapse" href="#page-instructions">
+        <a href="#" type="button" class="btn btn-adcom btn-sm btn-muted" data-toggle="button">Instructions</a>
+      </li>
+      -->
+      <li><a href="/badcom/about">About</a></li>
+      <li><a href="/badcom/contact">Support</a></li>
+      <li><a href="/badcom/logout">Log out</a></li>
+    </ul>
+  </div>
+</div>
+
+  <div class="text-left modal fade guidance-modal" id="" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="Label">When to use Listy</h4>
+      </div>
+      <div class="modal-body">
+        
+    <p>Use Listy when you want to publish a full-page piece in which most of the content is clip-like: that is, it breaks down naturally into sections.  Listy is not currently set up to make embedded lists; we will be exploring this possibility more in the near future.</p>
+
+<p>The introductory text of your list (the "leadin" field) should be brief. Don't start with a 500 word preamble; the list items should make up the main substance of the article.</p>
+
+<p>Ideally, each section of your list (or list item) should contain more than headline and text; if it does not, consider using an article with subheads.</p>
+
+<p>Listy is designed to work best with a strong visuals complementing each list item.  If your piece does not lend itself to using visuals, consider whether a traditional article may be a better template.</p>
+
+<p>Spend some time looking at <a href="/badcom/about#tool-examples">examples</a> of lists we have published so far. Digital News Design has also created a document with <a href="https://docs.google.com/a/nytimes.com/document/d/1buNo7J8BqISkDS0S22ecSvO5LCUzNqk8GPUt1PGb_fo/edit?usp=sharing">more tips for creating successful lists</a>.  If you still aren't sure how to proceed, please contact <a href="mailto:newstools@nytimes.com">newstools@nytimes.com</a> for guidance.</p>
+
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="drawer drawer-default drawer-instructions collapse" id="page-instructions" data-key="clips.index.instructions_drawer">
     <div class="container">
-      <h1>Audiogram</h1>
-      <div id="loading">
-        <div id="loading-bars">
-          <div class="r1"></div><div class="r2"></div><div class="r3"></div><div class="r4"></div><div class="r5"></div>
-        </div>
-        <div id="loading-message">Loading...</div>
-      </div><!-- #loading -->
-      <div id="loaded">
-        <div id="error"></div>
-        <div class="row form-row" id="row-audio">
-          <label for="input-audio">Audio</label>
-          <input id="input-audio" name="audio" type="file" />
-        </div>
-        <div class="row form-row" id="row-theme">
-          <label for="input-theme">Theme</label>
-          <select id="input-theme" name="theme"></select>
-        </div>
-        <div class="row form-row" id="row-caption">
-          <label for="input-caption">
-            Caption
-            <div class="note">Add two spaces in a row to force a line break.</div>
-          </label>
-          <input id="input-caption" name="caption" type="text" autocomplete="off" placeholder="Add a caption" />
-        </div>
-        <div id="preview">
-          <div style="background-color: black;">
-            <div id="canvas">
-              <canvas width="640" height="360"></canvas>
-              <div id="preview-label">Preview</div>
-            </div>
-          </div>
-          <div id="minimap" class="hidden">
-            <svg width="640" height="80" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <clipPath id="clip">
-                  <rect height="80" width="640" x="0" y="0"></rect>
-                </clipPath>
-              </defs>
-              <g class="waveform background">
-                <line x1="0" x2="640" y1="40" y2="40"></line>
-                <path></path>
-              </g>
-              <g class="waveform foreground" clip-path="url(#clip)">
-                <line x1="0" x2="640" y1="40" y2="40"></line>
-                <path></path>
-              </g>
-              <g class="brush"></g>
-              <g class="time">
-                <line x1="0" x2="0" y1="0" y2="80"></line>
-              </g>
-            </svg>
-            <div id="controls">
-              <span id="tip">Click and drag over the waveform to clip audio<br />Use space bar to play/pause</span>
-              <span id="duration"><strong></strong> seconds selected</span>
-              <button id="play"><i class="fa fa-play"></i>Play</button>
-              <button id="pause" class="hidden"><i class="fa fa-pause"></i>Pause</button>
-              <button id="restart"><i class="fa fa-step-backward"></i>Restart</button>
-            </div>
+      <div class="row">
+        <div class="col-md-offset-1 col-md-8 col-sm-12 col-sm-offset-0">
+          <h3>
+Instructions
+</h3>
+<ol>
+<li>
+<p><strong>Find existing lists</strong> on the homepage of Listy.  You can filter the list by typing in the search field, or sort using the links on the upper right.</p>
+<p><strong>Create a list</strong> by clicking the green "New list" button, and completing the form in the modal that opens.  You can go back and edit any of these fields later by clicking the "Edit List Info" button at the upper left of the list edit page.</p>
+</li>
+<li>
+On the list edit page, <strong>add one or more items</strong> by clicking the green "Add Items" button.  Click the headline or "Edit" button of each item to edit that item.  The "Expand Items" button to the upper right will open all items at once for editing.
+</li>
+<li class="updated">
+<p>Your Listy will <strong>automatically insert an ad placeholder</strong> after the fourth list item, and every third list item thereafter.</p>
+<p>These can be re-ordered and deleted. To insert an ad after the current item, use the "Add Advertisement" button at the bottom of the screen.</p>
+</li>
+<li>
+You can <strong>preview your list</strong> in a new tab at any time by clicking the "Preview" button in the upper right.  This will not create or update a Scoop asset.  Please note, you cannot refresh the preview page to see subsequent changes; you must generate a new preview by clicking the "Preview" button again.
+</li>
+<li>
+To <strong>export your list</strong> to Scoop, click the "Create in Scoop" button in the upper right.  Select a section, provide a slug and press "Save to Scoop".  You will be taken directly to your Scoop asset.  In Scoop, remember to add a summary, byline, and promotional image.
+</li>
+<li>
+Click "Update Scoop" to save subsequent changes to your Scoop asset.
+</li>
+<li>
+Note that creating or updating a Scoop asset will never publish it.  You must still publish your Listy manually in Scoop.
+</li>
+<li>
+<strong>Will your list be appearing in print?</strong>  If so, please <a href="https://confluence.em.nytimes.com/display/NEWS/Articles+as+Interactives">follow the instructions</a> for making it available to Today's Paper and Kindle.  (And note the caveats for lists heavy on the visuals.)
+</li>
+</ol>
+
+
+          <!-- MORE INSTRUCTIONS.  NEEDS ADCOM-NYT STYLES -->
+          <div style="font-size: 18px; font-weight: 500px">
+            <p><a href="#" data-toggle="modal" data-target=".guidance-modal">When should I use Listy?</a></p>
+            <p><a data-toggle="collapse" href="#page-instructions">Close instructions</a></p>
           </div>
         </div>
-        <div id="audio">
-          <audio controls>
-            <source />
-          </audio>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar navbar-default navbar-application">
+    <div class="container">
+      <ul class="nav navbar-nav navbar-left">
+        <li>
+          <h5 id="clip-count">Latest clips</h5>
+        </li>
+        <li>
+          <span><div class="btn btn-sm btn-success navbar-btn" data-target="#new-clip-modal" data-toggle="modal">New clip</div></span>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <li class="navbar-form">
+          <form class="form-inline" id="search-input">
+            <div class="form-group form-group-sm glyphicon-input">
+              <input class="form-control input-sm" data-filter="headline,author" data-target="#myList" data-trigger="keyup" placeholder="Filter by headline or creator" style="min-width: 190px">
+              <i class="glyphicon glyphicon-search"></i>
+            </div>
+            <div class="form-group form-group-sm checkbox">
+            <label>
+              <input checked="" data-filter="archived" data-target="#myList" type="checkbox" value="false">
+              Hide archived
+            </label>
+            <a aria-controls="collapseAlert" aria-expanded="false" class="glyphicon glyphicon-question-sign" data-toggle="collapse" href="#collapseAlert" role="button"></a>
+            </div>
+          </form>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right navbar-sort">
+        <li>
+          <span>Sort by:</span>
+        </li>
+        <li>
+          <a class="sort-control sort-descending" data-sort="updated_at" data-target="#myList" href="#">Date Updated</a>
+        </li>
+        <li>
+          <a class="sort-control" data-sort="headline" data-target="#myList" href="#">Headline</a>
+        </li>
+        <li>
+          <a class="sort-control" data-sort="author" data-target="#myList" href="#">Creator</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class='container' id='clips-container'>
+  <div class='clip clip-nyt-default clip-bordered border-top loading' data-loading-text='Loading clips' data-remote='/lists.json?page=1&amp;page_size=25' id='myList'>
+  <div class='clip-item'>
+  <div class='content-labels col-sm-1'>
+  <% if (typeof scoop_url != 'undefined' && in_scoop) { %>
+  <% if (published) { %>
+  <a class='btn btn-xs btn-published' href='&lt;%= scoop_url %&gt;' target='_blank'>PUBLISHED</a>
+  <% } else { %>
+  <a class='btn btn-xs btn-danger' href='&lt;%= scoop_url %&gt;' target='_blank'>IN SCOOP</a>
+  <% } %>
+  <% } %>
+  <% if (archived) { %>
+  <span class='btn btn-xs btn-muted disabled'>Archived</span>
+  <% } %>
+  </div>
+  <div class='content-primary col-sm-8'>
+  <h4 class='clip_headline'>
+  <a href='/lists/&lt;%= id %&gt;'>
+  <%= headline || id %>
+  </a>
+  </h4>
+  <p class='content-metadata'>
+  <span class='create_at_display metadata-item'>
+  <i>Updated:</i>
+  <%= moment(updated_at).format("MMM D, YYYY") %>.
+  </span>
+  <span class='metadata-item'>
+  <i>Created by:</i>
+  <span class='creator' data-field='author'></span>
+  </span>
+  <% if (typeof publish_url != 'undefined' && publish_url) { %>
+  <span class='metadata-item published_link'>
+  <a href='&lt;%= publish_url %&gt;' target='_blank'><i>Published on:</i> <%= moment.unix(publication_date).format("MMM D, YYYY") %></a>
+  </span>
+  <% } %>
+  </p>
+  </div>
+  <div class='content-actions text-right'>
+  <form action='/lists/&lt;%= id %&gt;/duplicate_clip.html' class='duplicate_clip button_to' method='post'>
+  <input type="hidden" name="authenticity_token" id="authenticity_token" value="w2XcHZTbQjWCJ7Ad5edYY/FRpjqcd1RT1Hqfk3+VLT4Jc4EWNDqxJdUDmlebFq0LeLkN33DfhVDf4dZV3fc1rQ==" />
+  <div class='btn-group'>
+  <a class='btn btn-muted' href='/lists/&lt;%= id %&gt;'>
+  Edit List
+  </a>
+  <button aria-expanded='false' class='btn btn-muted dropdown-toggle' data-toggle='dropdown' type='button'>
+  <span class='caret'></span>
+  <span class='sr-only'>Toggle Dropdown</span>
+  </button>
+  <ul class='dropdown-menu' role='menu'>
+  <li>
+  <a class='preview' href='#' data-application="scoop-production" data-id="<%= id %>" data-loading-text="Loading..." autocomplete='off'>Preview</a>
+  </li>
+  <% if (typeof publish_url != 'undefined' && publish_url) { %>
+  <li>
+  <a href="<%= publish_url %>" target="_blank">View Live</a>
+  </li>
+  <% } %>
+  <li>
+  <a href='#' onclick="$(this).closest('form').submit(); return false;">Duplicate</a>
+  </li>
+  <li>
+  <a class='archive' href="/lists/<%= id %>/archive<% if (archived) {%>?archived=false<% } %>"><%= {true: "Unarchive"}[archived] || "Archive" %></a>
+  </li>
+  <li>
+  <a class='delete' href="#" data-id="<%= id %>">Delete</a>
+  </li>
+  </ul>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  <div class='btn btn-default btn-block' id='show-all'>
+  Show all clips
+  </div>
+  </div>
+  <div class='message fade' id='delete-successful'>
+  <span>List successfully deleted</span>
+  <a href='#'>Undo</a>
+  </div>
+  <div class='modal fade' id='new-clip-modal'>
+    <div class='modal-dialog'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <button class='close' data-dismiss='modal' type='button'>
+            <span aria-hidden='true'></span>
+            <span class='sr-only'>Close</span>
+          </button>
+          <h4 class='modal-title'>
+            Create a new clip
+          </h4>
+          <p>
+            <strong>Headline</strong>, <strong>summary</strong> and <strong>leadin</strong> fields will be exported to Scoop with this list, and can be changed later.<br>
+            <strong>Creator</strong> is only used by Listy internally.
+          </p>
+
+          <div class='modal-body'>
+
+            <form id="newListForm" class="form-horizontal" action="/lists" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pOCnlt6QqHb1FyyDCEQdpWVO0ggtSCBULihbSeBmmLBu9vqdfnFbZqIzBsl2tejN7KZ57cHg8VclsxKPQgSAIw==" />
+              <input type="hidden" name="clip[clip_group_id]" id="clip_clip_group_id" />
+
+              <div class='form-group'>
+                <label class="control-label" for="clip_headline">Headline</label>
+                <div class='control-input'>
+                  <input class="form-control" placeholder="" required="required" type="text" name="clip[headline]" id="clip_headline" />
+                </div>
+              </div>
+
+
+              <div class='form-group'>
+                <label class="control-label" for="clip_leadin">Leadin</label>
+                <div class='control-input'>
+                  <input class="form-control" placeholder="" maxlength="1024" size="1024" type="text" name="clip[leadin]" id="clip_leadin" />
+                </div>
+              </div>
+
+              <div class='form-group'>
+                <label class="control-label" for="clip_summary">Summary</label>
+                <div class='control-input'>
+                  <input class="form-control" placeholder="" maxlength="1024" size="1024" type="text" name="clip[summary]" id="clip_summary" />
+                </div>
+              </div>
+
+              <div class='form-group'>
+                <label class="control-label" for="clip_display_style">Tone</label>
+                <div class='control-input'>
+                  <select class="form-control" name="clip[display_style]" id="clip_display_style"><option selected="selected" value="news">Default</option>
+  <option value="feature">Feature</option></select>
+                </div>
+              </div>
+
+              <div class='form-group'>
+                <label class="control-label" for="clip_numbered_list">Show Numbers</label>
+                <div class='control-input'>
+                  <select class="form-control" name="clip[numbered_list]" id="clip_numbered_list"><option selected="selected" value="no_numbers">No Numbers</option>
+  <option value="num_increase">Numbers Increasing</option>
+  <option value="num_decrease">Numbers Decreasing</option></select>
+                </div>
+              </div>
+
+              <!--  Inherit author & owner from clip group if present -->
+                <div class='form-group'>
+                  <label class="control-label" for="clip_owner">Owner</label>
+                  <div class='control-input'>
+                    <select class="form-control" name="clip[owner]" id="clip_owner"><option value="">N/A</option>
+  <option value="36 hours">36 Hours</option>
+  <option value="cooking">Cooking</option>
+  <option value="well">Well</option>
+  <option value="guides">Guides</option></select>
+                  </div>
+                </div>
+
+                <div class='form-group'>
+                  <label class="control-label" for="clip_author">Creator</label>
+                  <div class='control-input'>
+                    <input class="form-control" placeholder="" required="required" value="James Thomas" type="text" name="clip[author]" id="clip_author" />
+                  </div>
+                </div>
+
+
+              <div class='modal-footer'>
+                <input type="submit" name="commit" value="Create List" autocomplete="off" class="btn btn-primary btn-lg" data-loading-text="Submitting..." />
+              </div>
+
+  </form>
+          </div>
+
         </div>
-        <div id="video">
-          <video width="640" height="360" controls>
-            <source type="video/mp4" />
-          </video>
-        </div>
-        <div class="row" id="row-submit">
-          <button type="button" id="return" class="left"><i class="fa fa-edit"></i>Return to editor</button>
-          <button type="button" id="submit" class="right hidden"><i class="fa fa-cloud-upload"></i>Generate</button>
-          <a id="download" class="button right" href="#" target="_blank"><i class="fa fa-download"></i>Download</a>
-          <div class="clear"></div>
-        </div>
-      </div><!-- #loaded -->
-    </div><!-- .container -->
-    <script src="/js/bundle.js"></script>
-    <!-- Force load custom fonts -->
-    <script src="/fonts/fonts.js"></script>
-  </body>
-</html>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body></html>
