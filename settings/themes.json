@@ -43,6 +43,26 @@
     "captionFont": "100px 'Roboto'",
     "captionTop": 300
   },
+  "URY no image - square": {
+    "pattern": "wave",
+    "width": 1000,
+    "height": 1000,
+    "foregroundColor": "#fff",
+    "waveTop": 500,
+    "waveBottom": 700,
+    "waveColor": "#fff",
+    "captionFont": "60px 'Roboto'",
+    "captionAlign": "center",
+    "captionTop": 400,
+    "captionBottom": 450,
+    "citationFont": "50px 'Raleway'",
+    "citationAlign": "center",
+    "citationLeft": 10,
+    "citationRight": 990,
+    "citationTop": 750,
+    "citationBottom": 800,
+    "backgroundImage": "ury.png"
+  },
   "NYT Light": {
     "waveColor": "#d9d9d9",
     "foregroundColor": "#000",

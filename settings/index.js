@@ -36,7 +36,11 @@ module.exports = {
     { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-MediumItalic.ttf"), style: "italic" },
     { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-Regular.ttf") },
     { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-Bold.ttf"), weight: "bold" },
-    { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-BoldItalic.ttf"), weight: "bold", style: "italic" }
+    { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-BoldItalic.ttf"), weight: "bold", style: "italic" },
+    { family: "Raleway", file: path.join(__dirname, "fonts", "Raleway-Italic.ttf"), style: "italic" },
+    { family: "Raleway", file: path.join(__dirname, "fonts", "Raleway-Regular.ttf") },
+    { family: "Raleway", file: path.join(__dirname, "fonts", "Raleway-Bold.ttf"), weight: "bold" },
+    { family: "Raleway", file: path.join(__dirname, "fonts", "Raleway-BoldItalic.ttf"), weight: "bold", style: "italic" }
   ],
   redisHost: process.env.REDIS_URI,
   worker: (env === "development") ? false : true
