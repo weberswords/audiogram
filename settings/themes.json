@@ -31,6 +31,18 @@
     "labelLineHeight": 20,
     "labelLineSpacing": 4
   },
+  "Simple block - phone screen": {
+    "width": 1080,
+    "height": 1920,
+    "foregroundColor": "#fff",
+    "backgroundColor": "#002d5a",
+    "pattern": "wave",
+    "waveTop": 900,
+    "waveBottom": 1200,
+    "waveColor": "#fff",
+    "captionFont": "100px 'Roboto'",
+    "captionTop": 300
+  },
   "NYT Light": {
     "waveColor": "#d9d9d9",
     "foregroundColor": "#000",
