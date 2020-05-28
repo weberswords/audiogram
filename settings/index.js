@@ -32,7 +32,11 @@ module.exports = {
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Light.ttf"), weight: 300 },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Bold.ttf"), weight: "bold" },
     { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-Italic.ttf"), style: "italic" },
-    { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-BoldItalic.ttf"), weight: "bold", style: "italic" }
+    { family: "Source Sans Pro", file: path.join(__dirname, "fonts", "SourceSansPro-BoldItalic.ttf"), weight: "bold", style: "italic" },
+    { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-MediumItalic.ttf"), style: "italic" },
+    { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-Regular.ttf") },
+    { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-Bold.ttf"), weight: "bold" },
+    { family: "Roboto", file: path.join(__dirname, "fonts", "Roboto-BoldItalic.ttf"), weight: "bold", style: "italic" }
   ],
   redisHost: process.env.REDIS_URI,
   worker: (env === "development") ? false : true
