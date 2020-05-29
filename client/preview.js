@@ -1,19 +1,19 @@
 var d3 = require("d3"),
-    audio = require("./audio.js"),
-    video = require("./video.js"),
-    minimap = require("./minimap.js"),
-    sampleWave = require("./sample-wave.js"),
-    getRenderer = require("../renderer/"),
-    getWaveform = require("./waveform.js");
+  audio = require("./audio.js"),
+  video = require("./video.js"),
+  minimap = require("./minimap.js"),
+  sampleWave = require("./sample-wave.js"),
+  getRenderer = require("../renderer/"),
+  getWaveform = require("./waveform.js");
 
 var context = d3.select("canvas").node().getContext("2d");
 
 var theme,
-    caption,
-    citation,
-    label,
-    file,
-    selection;
+  caption,
+  citation,
+  label,
+  file,
+  selection;
 
 function _file(_) {
   return arguments.length ? (file = _) : file;
@@ -39,7 +39,7 @@ function _selection(_) {
   return arguments.length ? (selection = _) : selection;
 }
 
-minimap.onBrush(function(extent){
+minimap.onBrush(function (extent) {
 
   var duration = audio.duration();
 
@@ -58,8 +58,8 @@ minimap.onBrush(function(extent){
 function resize(width, height) {
 
   var widthFactor = 640 / width,
-      heightFactor = 360 / height,
-      factor = Math.min(widthFactor, heightFactor);
+    heightFactor = 360 / height,
+    factor = Math.min(widthFactor, heightFactor);
 
   d3.select("canvas")
     .attr("width", factor * width)
@@ -88,13 +88,33 @@ function redraw() {
 
   renderer.backgroundImage(theme.backgroundImageFile || null);
 
-  renderer.drawFrame(context, {
-    caption: caption,
-    citation: citation,
-    label: label,
-    waveform: sampleWave,
-    frame: 0
-  });
+  let b64;
+  let reader = new FileReader();
+  let file = document.querySelector('#input-BackgroundImage').files[0];
+  if (file) {
+    reader.onload = () => {
+      b64 = reader.result;
+      renderer.drawFrame(context, {
+        caption: caption,
+        citation: citation,
+        label: label,
+        waveform: sampleWave,
+        frame: 0,
+        backgroundImage: b64
+      });
+    }
+    reader.readAsDataURL(file);
+  } else {
+    renderer.drawFrame(context, {
+      caption: caption,
+      citation: citation,
+      label: label,
+      waveform: sampleWave,
+      frame: 0,
+    });
+  }
+
+
 
 }
 
@@ -103,7 +123,7 @@ function loadAudio(f, cb) {
   d3.queue()
     .defer(getWaveform, f)
     .defer(audio.src, f)
-    .await(function(err, data){
+    .await(function (err, data) {
 
       if (err) {
         return cb(err);
