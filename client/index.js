@@ -125,7 +125,7 @@ function submitted() {
   formData.append("label", label);
   formData.append("identifier", identifier);
 
-  var file = document.querySelector('#input-BackgroundImage');
+  var file = document.querySelector('#input-BackgroundImage').files[0];
   let reader = new FileReader();
   if (file) {
     reader.onload = () => {
