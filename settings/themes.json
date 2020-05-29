@@ -31,18 +31,6 @@
     "labelLineHeight": 20,
     "labelLineSpacing": 4
   },
-  "Simple block - phone screen": {
-    "width": 1080,
-    "height": 1920,
-    "foregroundColor": "#fff",
-    "backgroundColor": "#002d5a",
-    "pattern": "wave",
-    "waveTop": 900,
-    "waveBottom": 1200,
-    "waveColor": "#fff",
-    "captionFont": "100px 'Roboto'",
-    "captionTop": 300
-  },
   "URY no image - square": {
     "pattern": "wave",
     "width": 1000,
@@ -62,6 +50,33 @@
     "citationTop": 750,
     "citationBottom": 800,
     "backgroundImage": "ury.png"
+  },
+  "URY Standard 1000 x 1000 upload": {
+    "pattern": "wave",
+    "width": 1000,
+    "height": 1000,
+    "captionAlign": "center",
+    "captionTop": null,
+    "captionBottom": 300,
+    "captionRight": 400,
+    "captionLeft": 640,
+    "foregroundColor": "#fff",
+    "waveTop": 650,
+    "waveBottom": 780,
+    "waveColor": "#fff",
+    "captionFont": "52px 'Roboto'"
+  },
+  "Simple block - phone screen": {
+    "width": 1080,
+    "height": 1920,
+    "foregroundColor": "#fff",
+    "backgroundColor": "#002d5a",
+    "pattern": "wave",
+    "waveTop": 900,
+    "waveBottom": 1200,
+    "waveColor": "#fff",
+    "captionFont": "100px 'Roboto'",
+    "captionTop": 300
   },
   "NYT Light": {
     "waveColor": "#d9d9d9",
