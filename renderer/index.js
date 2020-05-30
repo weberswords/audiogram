@@ -1,21 +1,21 @@
 var d3 = require("d3"),
-  patterns = require("./patterns.js"),
-  textWrapper = require("./text-wrapper.js");
+    patterns = require("./patterns.js"),
+    textWrapper = require("./text-wrapper.js");
 
-module.exports = function (t) {
+module.exports = function(t) {
 
   var renderer = {},
-    backgroundImage,
-    wrapText,
-    theme;
+      backgroundImage,
+      wrapText,
+      theme;
 
-  renderer.backgroundImage = function (_) {
+  renderer.backgroundImage = function(_) {
     if (!arguments.length) return backgroundImage;
     backgroundImage = _;
     return this;
   };
 
-  renderer.theme = function (_) {
+  renderer.theme = function(_) {
     if (!arguments.length) return theme;
 
     theme = _;
@@ -37,7 +37,7 @@ module.exports = function (t) {
   };
 
   // Draw the frame
-  renderer.drawFrame = function (context, options) {
+  renderer.drawFrame = function(context, options){
 
     context.patternQuality = "best";
 
@@ -47,12 +47,7 @@ module.exports = function (t) {
     context.fillStyle = theme.backgroundColor;
     context.fillRect(0, 0, theme.width, theme.height);
 
-    console.log(options);
-    if (options.backgroundImage != null) {
-      let bgIm = new Image();
-      bgIm.src = options.backgroundImage;
-      context.drawImage(bgIm, 0, 0, theme.width, theme.height);
-    } else if (backgroundImage) {
+    if (backgroundImage) {
       context.drawImage(backgroundImage, 0, 0, theme.width, theme.height);
     }
 
