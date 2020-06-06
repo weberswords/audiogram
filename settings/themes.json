@@ -57,8 +57,6 @@
     "captionBottom": 450,
     "citationFont": "50px 'Raleway'",
     "citationAlign": "center",
-    "citationLeft": 10,
-    "citationRight": 990,
     "citationTop": 750,
     "citationBottom": 800,
     "backgroundImage": "ury.png"
