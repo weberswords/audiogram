@@ -133,6 +133,24 @@
     "citationBottom": 800,
     "backgroundImage": "primetime.png"
   },
+  "with image": {
+    "pattern": "wave",
+    "width": 1000,
+    "height": 1000,
+    "foregroundColor": "#fff",
+    "waveTop": 630,
+    "waveBottom": 740,
+    "waveColor": "#00a8f3",
+    "captionFont": "60px 'Roboto'",
+    "captionAlign": "center",
+    "captionTop": 400,
+    "captionBottom": 450,
+    "citationFont": "50px 'Raleway'",
+    "citationAlign": "center",
+    "citationTop": 750,
+    "citationBottom": 800,
+    "backgroundImage": "withImage.png"
+  },
   "NYT Light": {
     "waveColor": "#d9d9d9",
     "foregroundColor": "#000",
