@@ -3,7 +3,7 @@
     "width": 1000,
     "height": 560,
     "framesPerSecond": 20,
-    "maxDuration": 300,
+    "maxDuration": 500,
     "samplesPerFrame": 128,
     "pattern": "halfbars",
     "waveTop": 150,
