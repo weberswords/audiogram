@@ -209,22 +209,22 @@
     "backgroundImage": "science_why_do_bees_buzz.jpg",
     "labelColor": "#000"
   },
-  "URY With Image": {
+  "URY With Image ELECTION": {
     "pattern": "wave",
     "width": 1000,
     "height": 1000,
-    "foregroundColor": "#fff",
-    "waveTop": 700,
-    "waveBottom": 950,
-    "waveColor": "#e84e0e",
+    "foregroundColor": "#000",
+    "waveTop": 275,
+    "waveBottom": 475,
+    "waveColor": "#002d5a",
     "captionFont": "60px 'Roboto'",
     "captionAlign": "center",
-    "captionTop": 400,
-    "captionBottom": 450,
+    "captionTop": 500,
+    "captionBottom": 550,
     "citationFont": "50px 'Raleway'",
     "citationAlign": "center",
-    "citationTop": 750,
-    "citationBottom": 800,
-    "backgroundImage": "withImage.jpg"
+    "citationTop": 650,
+    "citationBottom": 700,
+    "backgroundImage": "withImage.png"
   }
 }
