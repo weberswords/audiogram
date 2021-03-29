@@ -342,7 +342,8 @@ function preloadImages(themes) {
       return cb(null, theme);
     };
 
-    theme.backgroundImageFile.src = theme.name == 'magic' ? "https://colinroitt.uk/audiogram/upload/image" : "/settings/backgrounds/" + theme.backgroundImage;
+    // check if background image is URL
+    theme.backgroundImageFile.src = theme.backgroundImage.includes('http') ? "https://colinroitt.uk/audiogram/upload/image" : "/settings/backgrounds/" + theme.backgroundImage;
 
   }
 
