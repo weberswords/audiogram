@@ -133,82 +133,6 @@
     "citationBottom": 800,
     "backgroundImage": "primetime.png"
   },
-  "with image": {
-    "pattern": "wave",
-    "width": 1000,
-    "height": 1000,
-    "foregroundColor": "#fff",
-    "waveTop": 630,
-    "waveBottom": 740,
-    "waveColor": "#00a8f3",
-    "captionFont": "60px 'Roboto'",
-    "captionAlign": "center",
-    "captionTop": 400,
-    "captionBottom": 450,
-    "citationFont": "50px 'Raleway'",
-    "citationAlign": "center",
-    "citationTop": 750,
-    "citationBottom": 800,
-    "backgroundImage": "withImage.png"
-  },
-  "NYT Light": {
-    "waveColor": "#d9d9d9",
-    "foregroundColor": "#000",
-    "citationColor": "#000",
-    "backgroundImage": "t_logo_light.png",
-    "labelColor": "#000"
-  },
-  "NYT Dark": {
-    "backgroundColor": "#000",
-    "waveColor": "#4d4d4d",
-    "foregroundColor": "#fff",
-    "citationColor": "#fff",
-    "backgroundImage": "t_logo_dark.png",
-    "labelColor": "#fff"
-  },
-  "Still Processing": {
-    "waveColor": "rgba(102, 80, 62, 0.25)",
-    "foregroundColor": "#66503e",
-    "citationColor": "#66503e",
-    "backgroundColor": "#f4d7b9",
-    "backgroundImage": "t_logo_white_alpha.png",
-    "labelColor": "#fff",
-    "labelText": "Still Processing"
-  },
-  "The Daily": {
-    "waveColor": "rgba(102, 102, 102, 0.25)",
-    "foregroundColor": "#fff",
-    "citationColor": "#fff",
-    "backgroundColor": "#f4d7b9",
-    "backgroundImage": "the_daily_audiogram_background.png",
-    "labelColor": "#fff",
-    "labelText": "The Daily"
-  },
-  "Dear Sugars": {
-    "waveColor": "rgba(255, 255, 255, 0.35)",
-    "foregroundColor": "rgba(0, 0, 0, 0.9)",
-    "citationColor": "rgba(0, 0, 0, 0.9)",
-    "backgroundColor": "#91d2d2",
-    "backgroundImage": "t_logo_dearsugars.png",
-    "labelColor": "rgba(0, 0, 0, 0.9)",
-    "labelText": "Dear Sugars"
-  },
-  "The Choice": {
-    "waveColor": "rgba(255, 255, 255, 0.50)",
-    "foregroundColor": "#fff",
-    "citationColor": "#fff",
-    "backgroundColor": "#f4d7b9",
-    "backgroundImage": "the-choice.jpg",
-    "labelColor": "#fff",
-    "labelText": "The Choice"
-  },
-  "Science": {
-    "waveColor": "#d9d9d9",
-    "foregroundColor": "#000",
-    "citationColor": "#000",
-    "backgroundImage": "science_why_do_bees_buzz.jpg",
-    "labelColor": "#000"
-  },
   "URY With Image ELECTION": {
     "pattern": "wave",
     "width": 1000,
@@ -227,13 +151,13 @@
     "citationBottom": 700,
     "backgroundImage": "withImage.png"
   },
-  "magic - lower third": {
+  "magic - top - white": {
     "pattern": "wave",
     "width": 1000,
     "height": 1000,
     "foregroundColor": "#fff",
-    "waveTop": 655,
-    "waveBottom": 780,
+    "waveTop": 150,
+    "waveBottom": 350,
     "waveColor": "#fff",
     "captionFont": "60px 'Roboto'",
     "captionAlign": "center",
@@ -245,7 +169,7 @@
     "citationBottom": 800,
     "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
   },
-  "magic - middle wave": {
+  "magic - middle - white": {
     "pattern": "wave",
     "width": 1000,
     "height": 1000,
@@ -263,13 +187,31 @@
     "citationBottom": 800,
     "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
   },
-  "magic - lower third - black": {
+  "magic - bottom - white": {
+    "pattern": "wave",
+    "width": 1000,
+    "height": 1000,
+    "foregroundColor": "#fff",
+    "waveTop": 655,
+    "waveBottom": 780,
+    "waveColor": "#fff",
+    "captionFont": "60px 'Roboto'",
+    "captionAlign": "center",
+    "captionTop": 400,
+    "captionBottom": 450,
+    "citationFont": "50px 'Raleway'",
+    "citationAlign": "center",
+    "citationTop": 750,
+    "citationBottom": 800,
+    "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
+  },
+  "magic - top - black": {
     "pattern": "wave",
     "width": 1000,
     "height": 1000,
     "foregroundColor": "#000",
-    "waveTop": 655,
-    "waveBottom": 780,
+    "waveTop": 150,
+    "waveBottom": 350,
     "waveColor": "#000",
     "captionFont": "60px 'Roboto'",
     "captionAlign": "center",
@@ -281,13 +223,31 @@
     "citationBottom": 800,
     "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
   },
-  "magic - middle wave - black": {
+  "magic - middle - black": {
     "pattern": "wave",
     "width": 1000,
     "height": 1000,
     "foregroundColor": "#000",
     "waveTop": 500,
     "waveBottom": 700,
+    "waveColor": "#000",
+    "captionFont": "60px 'Roboto'",
+    "captionAlign": "center",
+    "captionTop": 400,
+    "captionBottom": 450,
+    "citationFont": "50px 'Raleway'",
+    "citationAlign": "center",
+    "citationTop": 750,
+    "citationBottom": 800,
+    "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
+  },
+  "magic - bottom - black": {
+    "pattern": "wave",
+    "width": 1000,
+    "height": 1000,
+    "foregroundColor": "#000",
+    "waveTop": 655,
+    "waveBottom": 780,
     "waveColor": "#000",
     "captionFont": "60px 'Roboto'",
     "captionAlign": "center",
