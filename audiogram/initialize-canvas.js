@@ -3,8 +3,7 @@ var fs = require("fs"),
   path = require("path"),
   Canvas = require("../vendor/canvas"),
   getRenderer = require("../renderer/"),
-  d3 = require("d3"),
-  fetch = require("node-fetch");
+  d3 = require("d3");
 
 const https= require("https");
 
