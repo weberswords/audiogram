@@ -47,7 +47,12 @@ d3.json(pre_pro + "//" + pre_host + "/settings/labels.json", function(err, label
 
 }); // end label ingestion
 
-d3.json(pre_pro + "//" + pre_host + "/settings/themes.json", function(err, themes){
+d3.json(pre_pro + "//" + pre_host + "/settings/themes.json",  function(err, themes){
+  d3.json('https://colinroitt.uk/audiogram/theme.json', function(err, customTheme){
+    themes['Custom Theme'].waveColor = customTheme.waveColour;
+    themes['Custom Theme'].waveTop = parseInt(customTheme.waveTop);
+    themes['Custom Theme'].waveBottom = parseInt(customTheme.waveTop) + parseInt(customTheme.waveHeight);
+  });
 
   var errorMessage;
 
