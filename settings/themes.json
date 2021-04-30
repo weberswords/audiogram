@@ -258,5 +258,23 @@
     "citationTop": 750,
     "citationBottom": 800,
     "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
+  },
+  "Alex being awkward": {
+    "pattern": "wave",
+    "width": 1000,
+    "height": 1000,
+    "foregroundColor": "#000",
+    "waveTop": 842,
+    "waveBottom": 1000,
+    "waveColor": "#ff4444",
+    "captionFont": "60px 'Roboto'",
+    "captionAlign": "center",
+    "captionTop": 400,
+    "captionBottom": 450,
+    "citationFont": "50px 'Raleway'",
+    "citationAlign": "center",
+    "citationTop": 750,
+    "citationBottom": 800,
+    "backgroundImage": "https://colinroitt.uk/audiogram/upload/image"
   }
 }
