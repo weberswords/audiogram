@@ -3,9 +3,15 @@ div.container {
   margin-bottom: 2rem;
 }
 
+#header{
+  display: flex;
+  height: 50px;
+  justify-content: space-between
+}
+
 h1 {
   font-weight: 500;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   font-size: 48px;
 }
 
