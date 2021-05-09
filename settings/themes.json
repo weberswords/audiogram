@@ -1,7 +1,7 @@
 {
   "default": {
-    "width": 1000,
-    "height": 560,
+    "width": 540,
+    "height": 540,
     "framesPerSecond": 20,
     "maxDuration": 500,
     "samplesPerFrame": 128,
@@ -29,7 +29,8 @@
     "labelTop": 470,
     "labelLeft": 70,
     "labelLineHeight": 20,
-    "labelLineSpacing": 4
+    "labelLineSpacing": 4,
+    "backgroundImage": "blue_waterfcolor.png"
   },
   "Simple block - phone screen": {
     "width": 1080,
