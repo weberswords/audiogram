@@ -11,7 +11,7 @@
     "captionAlign": "left",
     "captionTop": 70,
     "captionLeft": 50,
-    "captionRight": 480,
+    "captionRight": 50,
     "captionFont": "300 68px 'NYT Franklin Light'",
     "captionLineHeight": 76,
     "captionLineSpacing": 7,
@@ -26,7 +26,7 @@
     "citationLineSpacing": 7,
     "labelFont": "44px 'NYT Karnak'",
     "labelAlign": "left",
-    "labelTop": 470,
+    "labelTop": 100,
     "labelLeft": 70,
     "labelLineHeight": 20,
     "labelLineSpacing": 4,
@@ -52,23 +52,23 @@
   "foregroundColor": "#fff",
   "backgroundColor": "#002d5a",
   "pattern": "wave",
-  "waveTop": 900,
-  "waveBottom": 1200,
-  "waveColor": "#fff",
+  "waveTop": 1570,
+  "waveBottom": 1870,
+  "waveColor": "#cb997e",
   "captionFont": "100px 'Roboto'",
   "captionTop": 300,
   "backgroundImage": "science.png"
 },
 "Simple block - phone screen": {
   "width": 1080,
-  "height": 1920,
+  "height": 1080,
   "foregroundColor": "#fff",
   "backgroundColor": "#002d5a",
   "pattern": "wave",
-  "waveTop": 900,
-  "waveBottom": 1200,
+  "waveTop": 730,
+  "waveBottom": 1030,
   "waveColor": "#fff",
   "captionFont": "100px 'Roboto'",
-  "captionTop": 300
+  "captionTop": 100
 }
 }
